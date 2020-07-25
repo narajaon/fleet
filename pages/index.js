@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { List } from '../components';
+import { Test } from '../components';
 
 export default function Home() {
-  return <List />;
+  return <Test />;
 }
