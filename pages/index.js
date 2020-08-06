@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Test } from '../components';
+import { Map } from '../components';
 
 export default function Home() {
-  return <Test />;
+  return <Map />;
 }

@@ -7,7 +7,7 @@ module.exports = {
     },
   },
   parser: 'babel-eslint',
-  plugins: ['prettier'],
+  plugins: ['prettier', 'react-hooks'],
   extends: [
     'airbnb-base',
     'eslint:recommended',
@@ -21,6 +21,8 @@ module.exports = {
   },
   ignorePatterns: ['/pages/api/*', '/pages/_app.js', '/pages/_document.js'],
   rules: {
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'prettier/prettier': 'warn',
     'no-bitwise': ['error', { allow: ['<<', '|'] }],
     'no-unused-vars': ['warn', { vars: 'all' }],
