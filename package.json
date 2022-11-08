@@ -11,7 +11,7 @@
   "dependencies": {
     "@react-google-maps/api": "^1.9.9",
     "eslint-plugin-react-hooks": "0.0.0-7f28234f8",
-    "next": "9.4.4",
+    "next": "13.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "rebass": "^4.0.7",
